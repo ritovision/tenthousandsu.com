@@ -40,7 +40,7 @@ image: "{{ site.baseurl }}/assets/images/su-OG.png"
         <input id="square-number" type="number" min="1" max="10000" required style="width:7em" placeholder="e.g. 2345">
         <div class="square-lookup__actions">
           <button id="square-choose-list" type="button">Choose from list</button>
-          <button id="square-choose-billboard" type="button">Choose from billboard</button>
+          <button id="square-choose-billboard" type="button">Choose from Billboard</button>
         </div>
       </div>
       <button id="select-square" type="button" class="btn btn-lg">Select Square</button>
@@ -188,7 +188,7 @@ image: "{{ site.baseurl }}/assets/images/su-OG.png"
           input: squareNumberInput,
           trigger: chooseBillboardButton,
           filter: (_id, ctx) => !ctx.extra, // only unminted
-          title: "Choose square from billboard",
+          title: "Choose Square from billboard",
           tooltipMode: "buy",
         });
         return billboardChooserHandle;
